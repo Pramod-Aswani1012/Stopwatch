@@ -1,0 +1,56 @@
+@media screen and (max-width:474px)
+{
+    
+
+#container
+{
+    
+    /* padding: 2em; */
+    margin-top: 2em;
+}
+
+.btn
+{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+.btn:hover
+{
+    /* animation-duration: 1s; */
+    transform: scale(1.2);
+    /* transform-style: flat; */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.time
+{
+    font-size: 3rem;
+margin: 8px;
+    /* border: 2px solid red; */
+}
+.ratio
+{
+    font-size: 40px;
+}
+span{
+    color: grey;
+    font-size: 21px;
+    margin: 2px;
+}
+#start
+{
+    background-color: green;
+}
+#pause
+{
+    background-color: blue;
+}
+#reset
+{
+    background-color: red;;
+}
+}
