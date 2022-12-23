@@ -29,7 +29,8 @@
             // if(milliseconds.innerHTML=="1000")
             // {
             //     milliseconds.innerHTML="00";
-                if(parseInt(seconds.innerHTML)>=0 && parseInt(seconds.innerHTML)<9)
+               
+             if(parseInt(seconds.innerHTML)>=0 && parseInt(seconds.innerHTML)<9)
                 {
                     let a = (parseInt(seconds.innerHTML)+1);
                     (seconds.innerHTML)="0"+a;
@@ -38,11 +39,9 @@
                 {
                     (seconds.innerHTML)=parseInt(seconds.innerHTML)+1;
                 }
-            
             if(parseInt(seconds.innerHTML)==60)
             {
-            //    milliseconds.innerHTML="00";
-                seconds.innerHTML="00";
+            //  milliseconds.innerHTML="00";
                 if(parseInt(minutes.innerHTML)>=0 && parseInt(minutes.innerHTML)<9)
                 {
                     let a = (parseInt(minutes.innerHTML)+1);
@@ -52,6 +51,8 @@
                 {
                     (minutes.innerHTML)=parseInt(minutes.innerHTML)+1;
                 }
+                seconds.innerHTML="00";
+                
             }
 
             if(minutes.innerHTML=="60")
