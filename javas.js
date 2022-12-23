@@ -39,7 +39,7 @@
                     (seconds.innerHTML)=parseInt(seconds.innerHTML)+1;
                 }
             
-            if(seconds.innerHTML=="60")
+            if(parseInt(seconds.innerHTML)==60)
             {
             //    milliseconds.innerHTML="00";
                 seconds.innerHTML="00";
