@@ -38,10 +38,10 @@
                 {
                     (seconds.innerHTML)=parseInt(seconds.innerHTML)+1;
                 }
-            // }
+            
             if(seconds.innerHTML=="60")
             {
-                milliseconds.innerHTML="00";
+            //    milliseconds.innerHTML="00";
                 seconds.innerHTML="00";
                 if(parseInt(minutes.innerHTML)>=0 && parseInt(minutes.innerHTML)<9)
                 {
@@ -57,7 +57,7 @@
             if(minutes.innerHTML=="60")
             {
                 minutes.innerHTML="00";
-                seconds.innerHTML="00";
+                //seconds.innerHTML="00";
                 if(parseInt(hour.innerHTML)>=0 && parseInt(hour.innerHTML)<9)
                 {
                     let a = (parseInt(hour.innerHTML)+1);
